@@ -254,6 +254,7 @@ header .follow a:hover{
 
 .home .image img{
     width:100%;
+    
 }
 
 .home .content{
@@ -302,8 +303,8 @@ header .follow a:hover{
 .about .row-1 .image img{
     height: 100%;
     width:100%;
-    object-fit: cover;
-    border:1rem solid #fff;
+    /* object-fit: cover; */
+    /* border:1rem solid #fff; */
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
@@ -734,8 +735,8 @@ header .follow a:hover{
 
   .scene {
     width:600px;
-    height:600px;
-    margin:2% auto;
+    height:300px;
+    margin: 1% auto;
     perspective: 1000px;
   }
   .wrapper {
@@ -879,3 +880,31 @@ header .follow a:hover{
     transform: rotateY(92deg);
     animation-delay: 0s;
   }
+
+
+
+  .container
+{
+	width: 1100px;
+	display: flex;
+    justify-content: space-between;
+    
+}
+img
+{
+	-webkit-box-reflect: below  1px linear-gradient(transparent,transparent,#0004);
+	transform-origin: center;
+	max-width: 350px;
+	transform: perspective(800px) rotateY(20deg);
+	transition: 0.5s;
+    
+}
+.container:hover img
+{
+	opacity: 0.1;
+}
+.container img:hover
+{
+	transform: perspective(800px) rotateY(0deg);
+	opacity: 1;
+}
