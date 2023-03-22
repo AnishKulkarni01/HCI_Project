@@ -130,6 +130,7 @@ section{
 .heading span{
     color:var(--main-color);
     text-transform: uppercase;
+    
 }
 
 .btn{
@@ -275,11 +276,42 @@ header .follow a:hover{
 .home .content h3 span{
     color:var(--main-color);
     text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #27AE60,
+        1px 2px 1px #27AE60,
+        1px 3px 1px #27AE60,
+        1px 3.5px 1px #27AE60,
+        1px 4px 1px #27AE60,
+        1px 4.5px 1px #27AE60,
+        
+        
+        
+      
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+.home .content h3 span:hover{
+    color:var(--main-color);
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #27AE60,
+      
+        
+        
+      
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
 }
 
 .home .content .info{
     font-size: 2.5rem;
-    color:#111;
+    color:#fff;
     padding:.5rem 0;
 }
 
@@ -606,7 +638,7 @@ header .follow a:hover{
   
 
   .scene {
-    width:600px;
+    width:400px;
     height:300px;
     margin: 1% auto;
     perspective: 1000px;
