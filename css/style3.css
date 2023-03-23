@@ -210,6 +210,15 @@
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
+    
+}
+@media (max-width: 1450px) {
+    .contact .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap:1.5rem;
+        margin-top: 30rem;
+    }
 }
 
 .contact .row form{
