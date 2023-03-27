@@ -11,7 +11,7 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     transition: all .2s linear;
     line-height: 1.5;
 }
@@ -26,6 +26,7 @@ body{
     background: #2a2e35;
     padding-left: 30rem;
 }
+
 
 .mainNav {
     float: left;
